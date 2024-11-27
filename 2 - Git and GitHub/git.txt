@@ -1,0 +1,12 @@
+#git config --global user.name "xansenx518"
+#git config  user.name
+#git config user.mail "jhanzen518@gmail.com"
+#git config user.mail
+#git status
+
+3 stages structure
+1 Working Area - git init(repository area)
+2 Staging Area - git add .
+3 Commit Area - git commit -m "messages"
+
+# git log
