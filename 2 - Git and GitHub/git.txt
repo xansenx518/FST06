@@ -10,3 +10,15 @@
 3 Commit Area - git commit -m "messages"
 
 # git log
+
+BRANCH
+#Create a BRANCH
+git branch [branch_name]
+
+# List all branches
+
+git branch -a
+
+#switch to a different branch
+git checkout [branch_name]
+git switch [branch_name]
