@@ -22,3 +22,7 @@ git branch -a
 #switch to a different branch
 git checkout [branch_name]
 git switch [branch_name]
+
+
+#Merging feature branch to  our master / Main branch 
+git merge
