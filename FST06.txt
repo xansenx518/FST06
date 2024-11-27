@@ -1,0 +1,57 @@
+FST06
+
+https://www.google.com/intl/en_uk/chrome
+
+https://zoom.us/download/
+
+https://slack.com/downloads/
+
+https://git-scm.com/downloads
+
+https://code.visualstudio.com
+
+https://github.com
+
+
+Inc@246810
+
+install Prettier extension
+
+settings -> Default formatter
+
+format on save -> tick on checkbox 
+
+Live Server - ritwick dey - > refresher - settings
+
+live server custom browser -> chrome
+
+
+auto rename tag
+
+cli - command line interface
+
+gui - graphical user interface
+
+CTRL+J gitbash
+
+mkdir "1 - Mastering CLI"
+
+rmdir - remove directory
+
+clear - clear commands
+
+pwd - present working directory
+
+ls - list all directory
+
+cd - change directory
+
+.. - return to parent folder
+
+cd ../.. - return two parent folder
+
+create new text file - touch test.txt
+
+rm text.txt - remove file
+
+file -> click auto save

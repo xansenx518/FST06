@@ -1,0 +1,49 @@
+GIT
+#REPOSITORY
+git init
+
+U symbol - untarack
+
+##configure to github
+git config --global user.name "xansenx518"
+//check
+git config  user.name 
+
+git config user.mail "jhanzen518@gmail.com"
+//check
+git config user.mail
+
+##
+git status
+
+git add .
+
+A symbol means Added
+
+git commit -m "Created notes for CLI"
+
+//check changes
+git log
+
+//git log --oneline
+
+##create branch
+git branch feature
+//switch
+git checkout feature
+
+
+git branch feature
+
+symbol M means modified
+
+#merging file from master
+git merge feature
+
+# push changes 
+
+git branch -M main
+
+git remote -v
+
+git remote add origin https://github.com/xansenx518/FST06.git
