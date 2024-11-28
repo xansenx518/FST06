@@ -1,0 +1,80 @@
+#text-styling {
+    font-family: Courier, Arial, sans-serif;
+    
+    /* keyword values */
+    font-weight: normal;
+    font-weight: bold;
+    font-weight: bolder;
+    /* keyword numeric */
+    font-weight: 100;
+    font-weight: 500;
+    
+    /* font style */
+    font-style: italic;
+
+    /* text align */
+    text-align: center;
+    text-align: right;
+    text-align: left;
+
+    /* line height */
+
+    line-height:2.5;
+    line-height: 90%;
+    line-height: 30px;
+
+    /* letter-spacing */
+
+    letter-spacing:normal;
+    letter-spacing:4px;
+    letter-spacing:-2px;
+    
+
+    
+
+}
+#text-decoration{
+    text-decoration: none;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: dashed;
+    text-decoration-style: dotted;
+    text-decoration-style: wavy;
+
+    text-decoration-color: red;
+
+    text-decoration-thickness: 5px;
+
+    text-decoration: underline overline line-through;
+    text-decoration: underline solid red 50%;
+}
+#colors{
+    color: white;
+    background-color: blue;
+
+    /* RGB - Red , Green, Blue */
+    /* rgb 0 - 255 */
+    /* RGBA - Red , Green, Blue , Alpha */
+    /* 0 -1 , 0 - Full Transparent , 1 - Full Opaque */
+    /* color: rgb(255, 255, 0); */
+    /* background-color: rgba(0,0,255, .70); */
+     /* Hexadecimal */
+    /* #RRGGBB */
+    /* 0 - 9, A -F */
+    color: #00b4d8;
+    background-color: hsla(314, 63%, 39%, 0.756);
+}
+#absolute-unit-px{
+    font-size: 30px;
+}
+
+#relative-unit-em{
+    font-size: 2em;
+}
+#relative-unit-rem{
+    font-size: 3rem;
+}

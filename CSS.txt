@@ -1,4 +1,4 @@
 CSS
 ALT + Z
 CTRL+/
-ALT + SHIFT
+ALT + SHIFT+arrow down
