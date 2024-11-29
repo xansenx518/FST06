@@ -47,3 +47,5 @@ git branch -M main
 git remote -v
 
 git remote add origin https://github.com/xansenx518/FST06.git
+
+git push -u origin main
