@@ -1,0 +1,44 @@
+.flexContainer{
+    
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    /* top */
+    align-items: flex-start;
+    /* bottom */
+    align-items: flex-end;
+    /* center */
+    align-items: center;
+    /* stretch */
+    align-items: stretch;
+    /* it shrink */
+    flex-wrap: nowrap;
+    /* not shrinking */
+    flex-wrap: wrap;
+    /* reverse from bottom to top */
+    flex-wrap: wrap-reverse;
+
+    column-gap: 200px;
+    row-gap: 200px;
+
+    gap:100px;
+}
+
+.flexItem1{
+    /* willing to grow */
+    flex-grow: 1;
+    /* not grow */
+    flex-grow: 0;
+}
+.flexItem2{
+    /* not shrinking */
+    flex-shrink: 0;
+    /* willing to shrink */
+    flex-shrink: 1;
+    }

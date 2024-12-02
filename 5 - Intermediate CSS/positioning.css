@@ -1,0 +1,29 @@
+/* relative to it's original position */
+#relative{
+    background-color: aqua;
+    position: relative;
+    top: 80px;
+    left: 200px;
+}
+/* erase its document flow */
+/* relative to parent container that is not static */
+#absolute {
+    background-color: burlywood;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+/* even we scroll still in fixed position */
+/* it shrink to the minimum usage space*/
+#fixed {
+    background-color: cadetblue;
+    position: fixed;
+    top:10px;
+}
+/* it will stick to the top if we scroll down*/
+#sticky{
+    background-color: darkkhaki;
+    position: sticky;
+
+    top:0px;
+}
