@@ -1,0 +1,56 @@
+.gridContainer{
+    display:grid;
+    /* using px */
+     /* size(width) and the number of columns */
+    grid-template-columns: 100px 140px 150px 200px;
+    /* size(height) and the number of rows */
+    grid-template-rows: 100px 200px 300px 150px;
+    /* auto adjust the sizes based on the content widht */
+    grid-template-columns: auto auto auto auto;
+    /* auto adjust the sizes based on the content height */
+    grid-template-rows: auto auto auto auto;
+    /* percentage */
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    /* fraction */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* using repeat value (column, fraction)*/
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    
+    column-gap: 10px;
+    row-gap: 10px;
+
+    gap:5px;
+}
+
+/* Media Queries */
+/* 
+    Mobile Devices: Less than 481px
+    iPads, Tablets: 481px - 768px
+    Small Screens, Laptops: 769px - 1024px
+    Desktops, Large Screens: 1025px - 1200px
+    Extra Large Screens, TV: 1201px and greater
+*/
+@media screen and (min-width: 1025px){
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: auto;
+    }
+}
+@media screen and (min-width: 481px) and (max-width:1024px){
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }
+}
+@media screen and (max-width: 480px){
+    .gridContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    }
+    
+}
