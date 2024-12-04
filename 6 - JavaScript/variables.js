@@ -109,3 +109,47 @@ console.log("Less than(>)", 5<3); // false
 console.log("Less than(<=)", 5<=5); // true
 console.log("Greater than(>=)", 5>=3); // true
 console.log("Greater than(<=)", 5<=3); // false
+
+console.clear();
+
+let sunny = true;
+let warm = false;
+
+// AND: true only if all condition are met
+
+console.log("is sunny and warm:",sunny && warm);
+console.log("type of sunny and warm:",typeof sunny,typeof warm);
+
+//OR: true if one condition is met
+console.log("is sunny OR warm:",sunny || warm);
+
+//NOT: Inverts the boolean value
+console.log("is not sunny",!sunny);
+
+//5. assignment Expression
+// asigning a value to a variable
+
+let num7 = 10;
+let num8 = 5;
+
+// num7 = num7+num8;
+num7+=num8
+// addition asignment +=
+console.log(num7);
+// substruction assignment -=
+num7-=num8;
+console.log(num7);
+
+//multiplication assignment *=
+num7*=num8;
+console.log(num7);
+//Division assignment *=
+num7/=num8;
+console.log(num7);
+//exponent assignment **=
+num7**=num8
+console.log(num7);
+
+//modulo/remainder assignment %=
+num7%=num8;
+console.log(num7);
